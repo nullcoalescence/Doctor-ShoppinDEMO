@@ -1,0 +1,31 @@
+{
+  "commands": [
+    { "message": "You wake up in your cramped but cozy double-wide, itchy and constipated." },
+    { "message": "You check your stash under your bed for them\nsweet, sweet oxies. You grab your" },
+    { "message": "bottle and give it a shake, but you hear no rattle. Lamenting,\nyou don your Carhartt duck canvas" },
+    { "message": "jacket, weathered Timberland steel toes, and set out on your adventure.\nYou decide you should bring" },
+    { "message": "something to pass the time while you wait in the clinic" },
+    { "message": "for the doctor. Do you bring:"},
+    { "delay": "1" },
+    { "choices": [
+      { "A": "Can Of Copenhagen" },
+      { "B": "Sun Drop" },
+      { "C": "A roll of condoms" }
+    ]},
+    { "results": [
+      { "A": [
+        { "loadScenario": "option_dip" }
+      ]},
+      { "B": [
+        { "message": "*My stomach don't feel too good. Oh no! This is the antifreeze laced " },
+        { "message": "Sun Drop I was going to give to my good fer nothin' landlord!!*" },
+        { "message": "\n\nYou die alone, depressed, without pills, waiting on another round" },
+        { "message": "of stimulus checks." },
+        { "delay": "2" }
+      ]},
+      { "C": [
+        { "loadScenario": "option_condoms" }
+      ]}
+    ]}
+  ]
+}
